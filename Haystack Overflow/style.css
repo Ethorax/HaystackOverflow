@@ -1,9 +1,9 @@
-html{
-    background-color:white;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-    background-image: url('images/farm_background.jpg'); 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
+html {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('images/farm_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100% 100%;
 }
 
@@ -20,21 +20,15 @@ html{
     border-right: none;
 }
 
-
-
 .btn-group:after {
     content: "";
     clear: both;
     display: table;
 }
 
-
-
 .btn-group button:hover {
     background-color: #3e8e41;
 }
-
-
 
 .collapsible {
     background-color: slateblue;
@@ -46,108 +40,121 @@ html{
     text-align: left;
     outline: none;
     font-size: 15px;
-  }
-  
-  .active, .collapsible:hover {
+}
+
+.active,
+.collapsible:hover {
     background-color: #555;
-  }
-  
-  .collapsible:after {
+}
+
+.collapsible:after {
     content: '\002B';
     color: white;
     font-weight: bold;
     float: right;
     margin-left: 5px;
-  }
-  
-  .active:after {
+}
+
+.active:after {
     content: "\2212";
-  }
-  
-  .content {
+}
+
+.content {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
     width: 70%;
-  }
+}
 
-  a:link {
+a:link {
     color: green;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: pink;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
-  }
-  
-  a:active {
+}
+
+a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
 
-#login-button{
-  float: right;
+#login-button {
+    float: right;
 }
 
 .login {
-  width: 400px;
-  background-color: #ffffff;
-  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-  margin: 100px auto;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
 }
+
 .login h1 {
-  text-align: center;
-  color: #5b6574;
-  font-size: 24px;
-  padding: 20px 0 20px 0;
-  border-bottom: 1px solid #dee0e4;
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
 }
+
 .login form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
 }
+
 .login form label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  background-color: #3274d6;
-  color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #ffffff;
 }
-.login form input[type="password"], .login form input[type="text"] {
-  width: 310px;
-  height: 50px;
-  border: 1px solid #dee0e4;
-  margin-bottom: 20px;
-  padding: 0 15px;
+
+.login form input[type="password"],
+.login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
 }
+
 .login form input[type="submit"] {
-  width: 100%;
-  padding: 15px;
- margin-top: 20px;
-  background-color: #3274d6;
-  border: 0;
-  cursor: pointer;
-  font-weight: bold;
-  color: #ffffff;
-  transition: background-color 0.2s;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
 }
+
 .login form input[type="submit"]:hover {
-background-color: #2868c7;
-  transition: background-color 0.2s;
+    background-color: #2868c7;
+    transition: background-color 0.2s;
+}
+
+.rules {
+    background-color: gray;
+    text-align: center;
 }
