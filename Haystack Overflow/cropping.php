@@ -57,3 +57,4 @@
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Cropping Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">These discussions are the king of the crop.</div>
+?>
