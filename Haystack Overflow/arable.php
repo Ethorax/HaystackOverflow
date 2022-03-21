@@ -58,3 +58,4 @@
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Arable Marketing Commentary Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">This section is for discussing all things in Arable Marketing.</div>
+?>
