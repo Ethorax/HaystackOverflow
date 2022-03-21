@@ -57,3 +57,4 @@
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Animal Health Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">Make sure your farm friends are happy and healthy!</div>
+?>
