@@ -57,3 +57,4 @@
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Pig and Poultry Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">For all your pig and chicken needs.</div>
+?>
