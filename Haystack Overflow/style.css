@@ -124,7 +124,7 @@ a:active {
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: #3274d6;
+    background-color: rgb(147, 192, 133);
     color: #ffffff;
 }
 
@@ -141,7 +141,7 @@ a:active {
     width: 100%;
     padding: 15px;
     margin-top: 20px;
-    background-color: #3274d6;
+    background-color: rgb(147, 192, 133);
     border: 0;
     cursor: pointer;
     font-weight: bold;
@@ -150,7 +150,7 @@ a:active {
 }
 
 .login form input[type="submit"]:hover {
-    background-color: #2868c7;
+    background-color: rgb(147, 192, 133);
     transition: background-color 0.2s;
 }
 
