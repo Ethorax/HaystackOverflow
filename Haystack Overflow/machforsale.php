@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,4 +56,3 @@
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Machinery for Sale Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">Make sure machines go to a loving home, or find the machine that is right for you.</div>
-?>
