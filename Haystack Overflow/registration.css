@@ -5,15 +5,20 @@
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
+html{
+	background-image:url("images/farm_background.jpg");
+}
 body {
-  	background-color: #435165;
-  	margin: 0;
+	background-image:url("images/farm_background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 .register {
   	width: 400px;
-  	background-color: #ffffff;
   	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   	margin: 100px auto;
+	background-color:white;
 }
 .register h1 {
   	text-align: center;
