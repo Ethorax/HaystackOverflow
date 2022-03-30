@@ -3,7 +3,7 @@
 session_start();
 // If the user is not logged in redirect to the login page...
 if (!isset($_SESSION['loggedin'])) {
-	header('Location: login.html');
+	header('Location: Login.html');
 	exit;
 }
 $DATABASE_HOST = 'localhost';
@@ -56,7 +56,7 @@ $stmt->close();
     </div>
 	</head>
 	<body class="loggedin">
-				
+		
 		<div id="profile-body">
 	<h2>Username: <?=$_SESSION['name']?></h2>
 	<h2>Email: <?=$email?> 
