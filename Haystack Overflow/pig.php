@@ -39,9 +39,6 @@ if ( mysqli_connect_errno() ) {
         <a href="Homepage.html">
             <button>Forums</button>
         </a>
-        <a href="chat.html">
-            <button>Chat</button>
-        </a>
         <a href="aboutus.html">
             <button>About Us</button>
         </a>
@@ -51,26 +48,6 @@ if ( mysqli_connect_errno() ) {
         <a href="registration.html">
 			<button>Register</button>
 		  </a>
-        		  <div id="myOverlay" class="overlay">
-			<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-			<div class="overlay-content">
-			  <form action="/action_page.php">
-				<input type="text" placeholder="Search.." name="search">
-				<button type="submit"><i class="fa fa-search"></i>Go</button>
-			  </form>
-			</div>
-		  </div>
-		  <button class="openBtn" onclick="openSearch()">Search</button>
-		  
-		  <script>
-		  function openSearch() {
-			document.getElementById("myOverlay").style.display = "block";
-		  }
-		  
-		  function closeSearch() {
-			document.getElementById("myOverlay").style.display = "none";
-		  }
-		  </script>
     </div>
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Pig and Poultry Forums</h1>
