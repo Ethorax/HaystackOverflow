@@ -48,6 +48,7 @@ if ( mysqli_connect_errno() ) {
         <a href="registration.html">
 			<button>Register</button>
 		  </a>
+	</div>
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Livestock and Forage Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">Wanna discuss Livestock? How about Foraging? We've got it all here!</div>
