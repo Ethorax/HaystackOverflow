@@ -29,6 +29,7 @@
         <a href="registration.html">
 			<button>Register</button>
 		  </a>
+	</div>
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Computers & IT Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">The forums for the tech-savy farmer.</div>
