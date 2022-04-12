@@ -29,6 +29,7 @@
         <a href="registration.html">
 			<button>Register</button>
 		  </a>
+	</div>
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">Land and Property Auctions Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">Going once, Going twice, sold in these forums!</div>
