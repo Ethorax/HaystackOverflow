@@ -48,6 +48,7 @@ if ( mysqli_connect_errno() ) {
         <a href="registration.html">
 			<button>Register</button>
 		  </a>
+	    </div>
 </head>
 <h1 style="background-color: rgb(255, 255, 255, 0.6)">DIY Forums</h1>
 <div style="background-color:rgb(255, 255, 255, 0.6)">Discussing your projects with fellow DIY-ers.</div>
