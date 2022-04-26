@@ -242,3 +242,23 @@ body
   .overlay button:hover {
     background: #bbb;
   }
+#threadbody, #threadtitle, #threadsubmit,#threadTopic{
+    float:left;
+    font-size:20px;
+    margin:1em;
+  }
+  #threadTopic{
+    width:500px;
+  }
+  #threadcreation{
+    margin-left:;
+    margin-right:auto;
+    width:1000px;
+    height:450px;
+    border:gray 4px solid;
+    background-color:lightgray;
+    
+  }
+  .threaditem{
+    border:grey 4px solid;
+  }
