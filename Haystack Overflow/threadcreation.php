@@ -39,6 +39,7 @@
         <a href="registration.html">
             <button>Register</button>
         </a>
+        </div>
 </head>
 
 <body>
