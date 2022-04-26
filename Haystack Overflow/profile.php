@@ -44,9 +44,6 @@ $stmt->close();
         <a href="Homepage.html">
             <button>Forums</button>
         </a>
-        <a href="chat.html">
-            <button>Chat</button>
-        </a>
         <a href="aboutus.html">
             <button>About Us</button>
         </a>
