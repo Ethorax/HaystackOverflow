@@ -50,6 +50,9 @@ $stmt->close();
         <a href="aboutus.html">
             <button>About Us</button>
         </a>
+	<a href="aboutus.html">
+            <button>Profile</button>
+        </a>
         <a href="login.html" id="login-button">
             <button>Log In</button>
         </a>
@@ -58,6 +61,7 @@ $stmt->close();
 	<body class="loggedin">
 		
 		<div id="profile-body">
+		<button>Upload Picture</button>
 	<h2>Username: <?=$_SESSION['name']?></h2>
 	<h2>Email: <?=$email?> 
 	<a href="logout.php"></br></br><i class="fas fa-sign-out-alt"></i>Logout</a>
