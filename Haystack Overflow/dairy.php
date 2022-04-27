@@ -60,13 +60,6 @@ if ( mysqli_connect_errno() ) {
     if(mysqli_num_rows($sql) > 0){
 ?>
 
-<table>
-    <tr>
-        <td>Username</td>
-        <td>Title</td>
-        <td>Thread ID</td>
-        <td>Body</td>
-    </tr>
 
 <?php
 $i=0;
@@ -75,12 +68,8 @@ while($row = mysqli_fetch_array($sql)){
 
     ?>
 
-    <tr>
-        <td><?php echo $row["username"]; ?></td>
-        <td><a href="replytopost.php?post_id=<?php echo $post_id?>"><?php echo $row["title"]; ?></td>
-        <td><?php echo $row["id"]; ?></td>
-        <td><?php echo $row["body"] ?></td>
-    </tr>
+<a  href="replytopost.php?post_id=<?php echo $row["id"]?>"><p class="thread"><?php echo $row["title"]?><br/><span style="font-size:18px;"><?php echo $row["username"]?></span><br/></p></a>
+    
     <?php
     $i++;
 }

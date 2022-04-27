@@ -61,13 +61,7 @@ if ( mysqli_connect_errno() ) {
 
 ?>
 
-<table>
-    <tr>
-        <td>Username</td>
-        <td>Title</td>
-        <td>Thread ID</td>
-        <td>Body</td>
-    </tr>
+
 
 <?php
 $i=0;
@@ -75,12 +69,7 @@ while($row = mysqli_fetch_array($sql)){
 
     ?>
 
-    <tr>
-        <td><?php echo $row["username"]; ?></td>
-        <td><?php echo $row["title"]; ?></td>
-        <td><?php echo $row["id"];?></td>
-        <td><?php echo $row["body"]; ?></td>
-    </tr>
+    <p class="thread"><span style="font-size:32pt;"><?php echo $row["title"]?></span><br/><br/><?php echo $row["body"]?><br/><br/><span style="font-size:18px;"><?php echo $row["username"]?></span><br/></p>
     <?php
     $i++;
 }
@@ -93,24 +82,20 @@ while($row = mysqli_fetch_array($sql)){
     }
 ?>
 
-<table>
-    <tr>
-        <td>Username</td>
-        <td>Reply ID</td>
-        <td>Body</td>
-    </tr>
+
+    
 
 <?php
 $i=0;
+
+
 while($row = mysqli_fetch_array($sql)){
 
     ?>
 
-    <tr>
-        <td><?php echo $row["reply_owner"]; ?></td>
-        <td><?php echo $row["reply_id"];?></td>
-        <td><?php echo $row["reply_body"]; ?></td>
-    </tr>
+
+   <p class="thread"><?php echo $row["reply_body"]?><br/><span style="font-size:18px;"><?php echo $row["reply_owner"]?></span><br/></p>
+    
     <?php
     $i++;
 }
@@ -120,7 +105,7 @@ while($row = mysqli_fetch_array($sql)){
     $post_id = $_GET['post_id'];
     ?>
 <form method="post" action="replyHandler.php?post_id=<?php echo $post_id?>" id="replyCreation">
-    <textarea name="replyBody"></textarea>
+    <textarea name="replyBody" cols="50" rows="8"></textarea>
     <input id="replySubmit" type="submit" value="Submit reply" />
 </form>
 

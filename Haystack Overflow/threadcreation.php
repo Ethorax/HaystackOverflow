@@ -46,10 +46,10 @@
     <h1>Post thread</h1>
 
     <form action="threadcreate.php" method="post" id="threadcreation">
-        <textarea id="threadtitle" name="threadtitle" rows="1" cols="80" placeholder="Thread title..."></textarea>
-        <textarea id="threadbody" name="threadbody" rows="10" cols="80" placeholder="Thread body..."></textarea>
+        <textarea id="threadtitle" name="threadTitle" rows="1" cols="80" placeholder="Thread title..."></textarea>
+        <textarea id="threadbody" name="threadBody" rows="10" cols="80" placeholder="Thread body..."></textarea>
         
-        <select id="threaddropdown" name="threaddropdown">
+        <select id="threaddropdown" name="threadTopic">
         <option value="Cropping">Cropping</option>
         <option value="Arable Marketing">Arable Marketing</option>
         <option value="Dairy">Dairy</option>

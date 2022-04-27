@@ -2,4 +2,5 @@ CREATE TABLE forum_replies (
   reply_id int NOT NULL AUTO_INCREMENT,
   reply_owner varchar(255),
   reply_body varchar(255),
-  RealThreadID in(11));
+  RealThreadID in(11)
+  );
