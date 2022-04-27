@@ -71,11 +71,13 @@ if ( mysqli_connect_errno() ) {
 <?php
 $i=0;
 while($row = mysqli_fetch_array($sql)){
+    $post_id = $row["id"];
+
     ?>
 
     <tr>
         <td><?php echo $row["username"]; ?></td>
-        <td><?php echo $row["title"]; ?></td>
+        <td><a href="replytopost.php?post_id=<?php echo $post_id?>"><?php echo $row["title"]; ?></td>
         <td><?php echo $row["id"]; ?></td>
         <td><?php echo $row["body"] ?></td>
     </tr>
